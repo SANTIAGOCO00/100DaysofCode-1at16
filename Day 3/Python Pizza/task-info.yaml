@@ -1,0 +1,30 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: solution.py
+    visible: true
+    learner_created: false
+status: Failed
+feedback:
+  message: "'Welc[28 chars]es!\\nYour final bill is: $23.\\n' != 'Welc[28 chars]es!\\\
+    nLa pizza Medium tiene un valor de: 20\\nLa[43 chars]23\\n'"
+  time: "Tue, 17 Jun 2025 20:42:35 UTC"
+  expected: |
+    Welcome to Python Pizza Deliveries!
+    Your final bill is: $23.
+  actual: |
+    Welcome to Python Pizza Deliveries!
+    La pizza Medium tiene un valor de: 20
+    La adición de pepperoni tiene un valor de: $ 23
+record: -1
